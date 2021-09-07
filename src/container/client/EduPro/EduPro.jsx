@@ -26,10 +26,10 @@ export default class EduPro extends Component {
               <h5 className="card-title">Education</h5>
               <p className="card-text">
                 <ul>
-                  <li>Le Thanh Duy Primary School / 2006 - 2011 </li>
-                  <li>Kim Dong Junior High School / 2011 - 2015</li>
-                  <li>Chau Thanh High School / 2015 - 2018</li>
                   <li>University of Technology and Education / 2018 - Now</li>
+                  <li>Chau Thanh High School / 2015 - 2018</li>
+                  <li>Kim Dong Junior High School / 2011 - 2015</li>
+                  <li>Le Thanh Duy Primary School / 2006 - 2011 </li>
                 </ul>
               </p>
             </div>
