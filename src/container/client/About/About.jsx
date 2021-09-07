@@ -13,7 +13,7 @@ export default class About extends Component {
     return (
       <div className="about my-5">
         <div className="row align-items-center">
-          <div className="col-4 about__images">
+          <div className="col-lg-4 col-sm-12 about__images">
             <div className="card h-100">
               <img
                 className="card-img-top rounded"
@@ -22,11 +22,13 @@ export default class About extends Component {
               />
             </div>
           </div>
-          <div className="col-8 about__card">
+          <div className="col-lg-8 col-sm-12 about__card">
             <div className="card h-100">
               <div className="card-body">
                 <div className="about__title">
-                  <p className="h1 pl-4 text-info">Bùi Minh Quang</p>
+                  <h1 className="pl-4 text-info">
+                    Bùi Minh <span className="h1">Quang</span>
+                  </h1>
                 </div>
                 <div className="about__info">
                   <ul>
