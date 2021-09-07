@@ -1,0 +1,23 @@
+.about {
+  .about__card {
+    ul {
+      li {
+        list-style: none;
+        .about__info-icon {
+          font-size: 20px;
+        }
+        .about__info-text {
+          display: inline-block;
+          padding: 0 5px;
+          transform: translateY(3px);
+        }
+        a {
+          color: black;
+        }
+      }
+    }
+    .about__me {
+      padding: 0 40px;
+    }
+  }
+}
